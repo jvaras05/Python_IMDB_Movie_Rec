@@ -83,7 +83,7 @@ df_imdb
 class Moviedb:
     def __init__(self):
         self._api_url='https://api.themoviedb.org/3'
-        self._api_key='05350dc485a20a8fb36716869914a328'
+        self._api_key='keyexpired'
     
     def __get_movies(self): #Metodo para obtener las peliculas en cartelera en moviedb
         print("Obteniendo Peliculas en Cartelera...")
